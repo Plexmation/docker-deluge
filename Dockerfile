@@ -42,5 +42,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8112 58846 58946 58946/udp
+EXPOSE 8112 58846 53394-53404 53394-53404/udp
 VOLUME /config /downloads
